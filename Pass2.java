@@ -85,6 +85,7 @@ class Pass2 {
                                     expandedLine.append(mdtToken).append(" ");
                                 }
                             }
+                            outputWriter.write("+ ");
                             outputWriter.write(expandedLine.toString().trim());
                             outputWriter.newLine();
                         }
